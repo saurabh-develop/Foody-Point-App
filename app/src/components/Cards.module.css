@@ -1,0 +1,31 @@
+.cards {
+  width: 310px;
+  height: 167px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #5a5b5d;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.price_btn {
+  width: 57px;
+  height: 25px;
+  background-color: #fe8618;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 420px) {
+  .cards {
+    flex-direction: column;
+  }
+}
